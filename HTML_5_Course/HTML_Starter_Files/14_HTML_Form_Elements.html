@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        div{
+            font-family: Arial, sans-serif;
+            background-color: orange;
+            padding: 10px;
+            margin: 5px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        simple Login Form-->
+     <div>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username"></input>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password"></input>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+     </div>
+      <!--Login Form with Table-->
+        <h2>Form Table</h2>
+       <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>Username</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <td>
+                        <input type="submit">
+                    </td>
+            </table>
+        </form>
+    </div>
+<!--Select Box-->
+        <div>
+            <form>
+                <label>select a lang</label>
+                <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Java Script</option>
+                <option>Jquery</option>
+                <option>Bootstrap</option>
+                <option>Angular</option>
+                </select>
+            </form>
+        </div>
+        <!--Text Area-->
+        <div>
+            <form>
+                <label>Enter measage</label>
+                <textarea rows="5" cols="30"></textarea>
+            </form>
+        </div>
+       <!-- DataList-->
+        <div>
+            <form>
+                <label>select a lang</label>
+                <input list="technologies" id="tech">
+                <datalist id ="technologies">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="Javascript">
+                    <option value="Jquery">
+                    <option value="AJAX">
+                    <option value="Bootstrap">
+                    <option value="Angular">    
+                </datalist>
+                <input type="submit" value="submit">
+            </form>
+             </div>
+</body>
+</html>

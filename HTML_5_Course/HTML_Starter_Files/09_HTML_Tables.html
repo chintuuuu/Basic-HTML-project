@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,  th,  td 
+        {
+            border: 2px solid red;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+        #custom-table thead
+        {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple table</h1>
+      <table width="100%">
+          <thead>
+            <tr>
+                <th>SNO</th>
+                <th>NAME</th>
+                <th>CLG</th>
+             </tr>
+             </thead>
+
+             <tbody>
+                 <tr>
+                    <td>1</td>
+                    <td>AKSHAY</td>
+                    <td>KMIT</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>SRI</td>
+                    <td>KMIT</td>
+                </tr>
+             </tbody>   
+         </table>
+
+         <h1>Table with colspan</h1>
+      <table width="100%">
+          <thead>
+            <tr>
+                <th>SNO</th>
+                <th colspan="2">NAME & CLG</th>
+                
+             </tr>
+             </thead>
+
+             <tbody>
+                 <tr>
+                    <td>1</td>
+                    <td>AKSHAY</td>
+                    <td>KMIT</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>SRI</td>
+                    <td>KMIT</td>
+                </tr>
+             </tbody>   
+         </table>
+
+         <h1> Table with row span</h1>
+         <table width="100%">
+          <thead>
+            <tr>
+                <th>SNO</th>
+                <th>NAME</th>
+                <th>CLG</th>
+             </tr>
+             </thead>
+
+             <tbody>
+                 <tr>
+                    <td rowspan="2">1</td>
+                    <td>AKSHAY</td>
+                    <td>KMIT</td>
+                </tr>
+                <tr>
+                    <td>SRI</td>
+                    <td>KMIT</td>
+                </tr>
+             </tbody>   
+         </table>
+
+         <h1> Custom table with CSS</h1>
+
+         <table width="100%" id="custom-table">
+          <thead>
+            <tr>
+                <th>SNO</th>
+                <th>NAME</th>
+                <th>CLG</th>
+             </tr>
+             </thead>
+
+             <tbody>
+                 <tr>
+                    <td>1</td>
+                    <td>AKSHAY</td>
+                    <td>KMIT</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>SRI</td>
+                    <td>KMIT</td>
+                </tr>
+             </tbody>   
+         </table>
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+
+
+</body>
+</html>
