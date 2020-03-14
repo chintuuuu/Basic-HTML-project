@@ -23,6 +23,15 @@
            {
            	padding:7px;
            }
+         input
+           {
+            height: 20px;
+            border-radius: 10px;
+           }
+           textarea
+           {
+            border-radius: 10px;
+           }
      </style>
 </head>
 <body>
@@ -155,6 +164,140 @@
                   </tr>
             </table>
       	</div>
+    <div id="educational-details">
+                  <h2>Educational Details</h2>
+                  <table width="100%">
+                  <tr>
+                    <td>SNO</td>
+                    <td>Qulification</td>
+                    <td>Institute / University</td>
+                    <td>Yesr Of Passing</td>
+                    <td>Marks (%)</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>
+                      <input type="text" size="25">
+                    </td>
+                    <td>
+                      <input type="text" size="25">
+                    </td>
+                    <td>
+                      <input type="month">
+                    </td>
+                    <td>
+                      <input type="number" min="0" max="100">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>
+                      <input type="text" size="25">
+                    </td>
+                    <td>
+                      <input type="text" size="25">
+                    </td>
+                    <td>
+                      <input type="month">
+                    </td>
+                    <td>
+                      <input type="number" min="0" max="100">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>
+                      <input type="text" size="25">
+                    </td>
+                    <td>
+                      <input type="text" size="25">
+                    </td>
+                    <td>
+                      <input type="month">
+                    </td>
+                    <td>
+                      <input type="number" min="0" max="100">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div id="work-experience">
+                <h2>Work Experience</h2>
+                <table width="100%">
+                  <tr>
+                    <td>SNO</td>
+                    <td>Company Address</td>
+                    <td>Work / Role</td>
+                    <td colspan="2">Duration (from-to)</td>
+                   </tr>
+                   <tr>
+                    <td>1</td>
+                    <td>
+                      <textarea rows="5" cols="30"></textarea>
+                    </td>
+                    <td>
+                      <textarea rows="5" cols="30"></textarea>
+                    </td>
+                    <td>
+                      <input type="month">
+                    </td>
+                    <td>
+                      <input type="month">
+                    </td>
+                  </tr>
+                 </table>
+               </div>
+                <div id="other-details">
+                <h2>Other Details</h2>
+                <table width="100%">
+                  <tr>
+                    <td>Jobtype</td>
+                    <td>
+                      <input type="radio" name="jobtype" value="permanent">Permanent
+                    </td>
+                    <td>
+                      <input type="radio" name="jobtype" value="contract">Contract
+                    </td>
+                    <td>
+                      <input type="radio" name="jobtype" value="other">Other
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Date Of Joining</td>
+                    <td>
+                      <input type="date">
+                    </td>
+                  </tr>
+                   <tr>
+                    <td>Preferred Job Location</td>
+                  <td>
+                      <input type="radio" name="joblocation" value="hyd">HYD
+                    </td>
+                    <td>
+                      <input type="radio" name="joblocation" value="bng">BNG
+                    </td>
+                    <td>
+                      <input type="radio" name="joblocation" value="pune">PUNE
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox">
+                    </td>
+                    <td colspan="3">
+                      This is to inform that, All the above mentioned information is correct As per my knowledge
+                    </td>
+                  </tr>
+                  <tr>
+                  <td></td>
+                  <td>
+                    <input type="submit" value="Submit">
+                    </td>
+                   <td>
+                    <input type="reset" value="Reset">
+                    </td>
+                </table>
+              </div>
 </form>
 </body>
 </html>
