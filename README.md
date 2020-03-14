@@ -1,3 +1,3 @@
-intsall sublime text
-exexute codes
+Intsall sublime text
+Exexute codes
 
